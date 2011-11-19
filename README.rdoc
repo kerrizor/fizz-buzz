@@ -1,16 +1,26 @@
 = fizz-buzz
 
-Description goes here.
+== Why?
 
-== Contributing to fizz-buzz
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+In interviews, I'm constantly asked to whiteboard (or actually code) my solution to the FizzBuzz problem.  Its not a terribly challenging question:
+
+  Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+Most solid programmers who know their chops should be able to write it on paper in under 5 minutes.  Lately its become one of the more fashionable interview questions, and while FizzBuzz problems will weed out the utterly lost and clueless, it really should be the first step in evaluating a candidate's potential, not the last.
+
+With that in mind, and suffer from insomnia, I decided to go a step further:
+
+* TDD
+* making it a gem
+* query methods
+* putting it on the githubs
+
+
+More on FizzBuzz problems, and how they fit into the interview process
+
+* http://c2.com/cgi/wiki?FizzBuzzTest
+* http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/
+
 
 == Copyright
 
