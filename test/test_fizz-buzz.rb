@@ -25,23 +25,23 @@ class TestFizzBuzz < MiniTest::Unit::TestCase
 
 
   def test_will_it_fizz
-    assert_respond_to     @fizzbuzz, :fizz?
-    assert_equal "Fizz",  @fizzbuzz.fizz?(3)
-    assert_nil            @fizzbuzz.fizz?(2)
+    assert_respond_to @fizzbuzz, :fizz?
+    assert            @fizzbuzz.fizz?(3)
+    assert_nil        @fizzbuzz.fizz?(2)
   end
 
 
   def test_will_it_buzz
-    assert_respond_to     @fizzbuzz, :buzz?
-    assert_equal "Buzz",  @fizzbuzz.buzz?(5)
-    assert_nil            @fizzbuzz.buzz?(2)
+    assert_respond_to @fizzbuzz, :buzz?
+    assert            @fizzbuzz.buzz?(5)
+    assert_nil        @fizzbuzz.buzz?(2)
   end
 
 
   def test_will_it_fizzbuzz
-    assert_respond_to         @fizzbuzz, :fizzbuzz?
-    assert_equal "FizzBuzz",  @fizzbuzz.fizzbuzz?(30)
-    assert_nil                @fizzbuzz.fizzbuzz?(2)
+    assert_respond_to @fizzbuzz, :fizzbuzz?
+    assert            @fizzbuzz.fizzbuzz?(30)
+    assert_nil        @fizzbuzz.fizzbuzz?(2)
   end
 
 end

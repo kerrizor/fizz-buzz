@@ -20,21 +20,21 @@ class FizzBuzz
 
   def fizz?(n)
     if (n % 3) == 0
-      return "Fizz"
+      return :true
     end
   end
 
 
   def buzz?(n)
     if (n % 5) == 0
-      return "Buzz"
+      return :true
     end
   end
 
 
   def fizzbuzz?(n)
     if (n % 15) == 0
-      return "FizzBuzz"
+      return :true
     end
   end
 
