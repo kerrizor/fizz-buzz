@@ -17,9 +17,9 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fizz-buzz"
   gem.homepage = "http://github.com/kerrizor/fizz-buzz"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "kerri@vholdr.com"
+  gem.summary = %Q{A basic implementation of Fizz Buzz as a gem.}
+  gem.description = %Q{I got sick of doing this test in interviews, so next time someone asks me to do so, I'm going to instead hand them a business card with a URL for this gem on it.}
+  gem.email = "kerrizor@kerrizor.com"
   gem.authors = ["Kerri Miller"]
   # dependencies defined in Gemfile
 end
