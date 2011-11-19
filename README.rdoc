@@ -4,7 +4,7 @@
 
 In interviews, I'm constantly asked to whiteboard (or actually code) my solution to the FizzBuzz problem.  Its not a terribly challenging question:
 
-'Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.'
+<blockquote>Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.</blockquote>
 
 Most solid programmers who know their chops should be able to write it on paper in under 5 minutes.  Lately its become one of the more fashionable interview questions, and while FizzBuzz problems will weed out the utterly lost and clueless, it really should be the first step in evaluating a candidate's potential, not the last.
 
