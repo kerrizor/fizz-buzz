@@ -1,14 +1,13 @@
 class FizzBuzz
-
   def crunch
     return_values = Array.new
 
     (1..100).each do |n|
-      if (n % 15) == 0
+      if n.fizzbuzz?
          return_values << "FizzBuzz"
-      elsif (n % 5) == 0
+      elsif n.buzz?
         return_values << "Buzz"
-      elsif (n % 3) == 0
+      elsif n.fizz?
         return_values << "Fizz"
       else
         return_values << n
@@ -17,23 +16,23 @@ class FizzBuzz
 
     return return_values
   end
+end
 
-  def fizz?(n)
-    if (n % 3) == 0
+class Fixnum
+  def fizz?
+    if (self % 3) == 0
       return :true
     end
   end
 
-
-  def buzz?(n)
-    if (n % 5) == 0
+  def buzz?
+    if (self % 5) == 0
       return :true
     end
   end
 
-
-  def fizzbuzz?(n)
-    if (n % 15) == 0
+  def fizzbuzz?
+    if (self % 15) == 0
       return :true
     end
   end
