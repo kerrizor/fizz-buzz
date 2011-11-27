@@ -20,21 +20,15 @@ end
 
 class Fixnum
   def fizz?
-    if (self % 3) == 0
-      return :true
-    end
+    return true if (self % 3) == 0
   end
 
   def buzz?
-    if (self % 5) == 0
-      return :true
-    end
+    return true if (self % 5) == 0
   end
 
   def fizzbuzz?
-    if (self % 15) == 0
-      return :true
-    end
+    return true if (self % 15) == 0
   end
 
 end
