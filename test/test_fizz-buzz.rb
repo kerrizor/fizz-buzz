@@ -22,6 +22,17 @@ class TestFizzBuzz < MiniTest::Unit::TestCase
   end
 
 
+  def test_crunch_with_range
+    assert_equal 14,          @fizzbuzz.crunch(4,17).length
+    assert_equal "Fizz",      @fizzbuzz.crunch(4,17)[2]
+    assert_equal "4",         @fizzbuzz.crunch(4,17)[0].to_s
+    assert_equal "Buzz",      @fizzbuzz.crunch(4,17)[1]
+    assert_equal "FizzBuzz",  @fizzbuzz.crunch(4,17)[11]
+
+    assert_nil @fizzbuzz.crunch(44,17)
+  end
+
+
   def test_will_it_fizz
     assert_respond_to 4, :fizz?
     assert            3.fizz?
