@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{fizz-buzz}
-  s.version = "0.2.0"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kerri Miller"]
-  s.date = %q{2011-11-20}
+  s.date = %q{2011-11-26}
   s.description = %q{I got sick of doing this test in interviews, so next time someone asks me to do so, I'm going to instead hand them a business card with a URL for this gem on it.}
   s.email = %q{kerrizor@kerrizor.com}
   s.extra_rdoc_files = [
