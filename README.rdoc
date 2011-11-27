@@ -6,15 +6,14 @@ In interviews, I'm constantly asked to whiteboard (or actually code) my solution
 
   "Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”."
 
-Most solid programmers who know their chops should be able to write it on paper in under 5 minutes.  Lately its become one of the more fashionable interview questions, and while FizzBuzz problems will weed out the utterly lost and clueless, it really should be the first step in evaluating a candidate's potential, not the last.
+Most solid programmers who know their chops should be able to write it on paper in under 5 minutes.  Lately its become one of the more fashionable interview questions, and while FizzBuzz problems will weed out the utterly lost and clueless, it really should be the first step, not the last, in evaluating a candidate's potential.
 
-With that in mind, and suffer from insomnia, I decided to go a step further:
+With that in mind (and suffering from insomnia), I decided to go a step further:
 
 * TDD
-* making it a gem
-* query methods
+* release it a gem
+* extending Fixnum to add query methods
 * putting it on the githubs
-
 
 More on FizzBuzz problems, and how they fit into the interview process
 
