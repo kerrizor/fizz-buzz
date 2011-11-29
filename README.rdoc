@@ -1,5 +1,8 @@
 = fizz-buzz
 
+{<img src="http://travis-ci.org/kerrizor/fizzbuzz.png" />}[http://travis-ci.org/kerrizor/fizzbuzz]
+
+
 == Why?
 
 In interviews, I'm constantly asked to whiteboard (or actually code) my solution to the FizzBuzz problem.  Its not a terribly challenging question:
