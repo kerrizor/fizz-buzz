@@ -1,6 +1,6 @@
 = fizz-buzz
 
-{<img src="http://travis-ci.org/kerrizor/fizzbuzz.png" />}[http://travis-ci.org/kerrizor/fizzbuzz]
+{<img src="https://secure.travis-ci.org/kerrizor/fizz-buzz.png" />}[http://travis-ci.org/kerrizor/fizz-buzz]
 
 
 == Why?
