@@ -36,21 +36,21 @@ class TestFizzBuzz < MiniTest::Unit::TestCase
   def test_will_it_fizz
     assert_respond_to 4, :fizz?
     assert            3.fizz?
-    assert_nil        2.fizz?
+    assert            !2.fizz?
   end
 
 
   def test_will_it_buzz
     assert_respond_to 4, :buzz?
     assert            5.buzz?
-    assert_nil        2.buzz?
+    assert            !2.buzz?
   end
 
 
   def test_will_it_fizzbuzz
     assert_respond_to 4, :fizzbuzz?
     assert            30.fizzbuzz?
-    assert_nil        2.fizzbuzz?
+    assert            !2.fizzbuzz?
   end
 
 end

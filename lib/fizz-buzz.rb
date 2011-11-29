@@ -28,19 +28,19 @@ class Fixnum
 
   # For testing the Fizz-, Buzz-, or Fizzbuzz-ness of a Fixnum
   #   3.fizz?       #  => true
-  #   5.buzz?       #  => nil
+  #   3.buzz?       #  => false
   #   15.fizzbuzz?  #  => true
 
   def fizz?
-    return true if (self % 3) == 0
+    self % 3 == 0
   end
 
   def buzz?
-    return true if (self % 5) == 0
+    self % 5 == 0
   end
 
   def fizzbuzz?
-    return true if (self % 15) == 0
+    self % 15 == 0
   end
 
 end
