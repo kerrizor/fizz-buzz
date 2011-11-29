@@ -1,6 +1,6 @@
 require 'helper'
 
-class TestFizzBuzz < MiniTest::Unit::TestCase
+class TestFizzBuzz < Test::Unit::TestCase
 
   def test_new_fizzbuzz
     assert_instance_of FizzBuzz, FizzBuzz.new
