@@ -23,13 +23,13 @@ class FizzBuzz
 end
 
 
-
-class Fixnum
-
+module FizzBuzziness
   # For testing the Fizz-, Buzz-, or Fizzbuzz-ness of a Fixnum
   #   3.fizz?       #  => true
   #   3.buzz?       #  => false
   #   15.fizzbuzz?  #  => true
+  #
+  # Note that using these methods, fizzbuzzy numbers like 15 will fizz, buzz, AND fizzbuzz.
 
   def fizz?
     self % 3 == 0
@@ -42,5 +42,16 @@ class Fixnum
   def fizzbuzz?
     self % 15 == 0
   end
-
 end
+
+
+class Fixnum
+  include FizzBuzziness
+end
+
+
+class Float
+  include FizzBuzziness
+end
+
+

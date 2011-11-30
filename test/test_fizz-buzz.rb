@@ -6,9 +6,11 @@ class TestFizzBuzz < Test::Unit::TestCase
     assert_instance_of FizzBuzz, FizzBuzz.new
   end
 
+
   def setup
     @fizzbuzz = FizzBuzz.new
   end
+
 
   def test_crunch
     assert_respond_to @fizzbuzz, :crunch
@@ -37,6 +39,8 @@ class TestFizzBuzz < Test::Unit::TestCase
     assert_respond_to 4, :fizz?
     assert            3.fizz?
     assert            !2.fizz?
+    assert            3.0.fizz?
+    assert            !3.1.fizz?
   end
 
 
@@ -44,6 +48,8 @@ class TestFizzBuzz < Test::Unit::TestCase
     assert_respond_to 4, :buzz?
     assert            5.buzz?
     assert            !2.buzz?
+    assert            5.0.buzz?
+    assert            !5.1.buzz?
   end
 
 
@@ -51,6 +57,8 @@ class TestFizzBuzz < Test::Unit::TestCase
     assert_respond_to 4, :fizzbuzz?
     assert            30.fizzbuzz?
     assert            !2.fizzbuzz?
+    assert            30.0.fizzbuzz?
+    assert            !30.1.fizzbuzz?
   end
 
 end
