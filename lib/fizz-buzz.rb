@@ -1,12 +1,10 @@
-class FizzBuzz
-
-  # Returns an array solving the classic 1 to 100 FizzBuzz problem.
-  def crunch(start=1, stop=100)
-    return nil unless start < stop
+module FizzBuzz
+  def fizzbuzz
+    fb_values = Array(self) unless self.class == (Range||Array)
 
     return_values = Array.new
 
-    (start..stop).each do |n|
+    (fb_values.first..fb_values.last).each do |n|
       if n.fizzbuzz?
          return_values << "FizzBuzz"
       elsif n.buzz?
@@ -20,10 +18,7 @@ class FizzBuzz
 
     return return_values
   end
-end
 
-
-module FizzBuzziness
   # For testing the Fizz-, Buzz-, or Fizzbuzz-ness of a Fixnum
   #   3.fizz?       #  => true
   #   3.buzz?       #  => false
@@ -45,13 +40,23 @@ module FizzBuzziness
 end
 
 
+class Range
+  include FizzBuzz
+end
+
+
+class Array
+  include FizzBuzz
+end
+
+
 class Fixnum
-  include FizzBuzziness
+  include FizzBuzz
 end
 
 
 class Float
-  include FizzBuzziness
+  include FizzBuzz
 end
 
 
