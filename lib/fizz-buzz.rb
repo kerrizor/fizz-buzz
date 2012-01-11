@@ -1,10 +1,8 @@
 module FizzBuzz
   def fizzbuzz
-    fb_values = Array(self) unless self.class == (Range||Array)
-
     return_values = Array.new
 
-    (fb_values.first..fb_values.last).each do |n|
+    self.each do |n|
       if n.fizzbuzz?
          return_values << "FizzBuzz"
       elsif n.buzz?
@@ -18,7 +16,10 @@ module FizzBuzz
 
     return return_values
   end
+end
 
+
+module FizzBuzzNumerics
   # For testing the Fizz-, Buzz-, or Fizzbuzz-ness of a Fixnum
   #   3.fizz?       #  => true
   #   3.buzz?       #  => false
@@ -50,13 +51,9 @@ class Array
 end
 
 
-class Fixnum
-  include FizzBuzz
+class Numeric
+  include FizzBuzzNumerics
 end
 
-
-class Float
-  include FizzBuzz
-end
 
 
