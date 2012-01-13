@@ -1,8 +1,14 @@
 module FizzBuzz
+  # return an array of fizzbuzz'd values for the input data set (Array or Range)
   def fizzbuzz
     return_values = Array.new
 
     self.each do |n|
+      unless n.is_a?(Numeric)
+        return_values << n
+        next
+      end
+
       if n.fizzbuzz?
          return_values << "FizzBuzz"
       elsif n.buzz?
