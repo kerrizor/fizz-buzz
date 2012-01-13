@@ -15,14 +15,14 @@ With that in mind (and suffering from insomnia), I decided to go a step further:
 
 * TDD
 * release it a gem
-* extending Fixnum to add query methods
+* explore some bits of Ruby I don't get to work with often
 * putting it on the githubs
 
 More on FizzBuzz problems, and how they fit into the interview process
 
 * http://c2.com/cgi/wiki?FizzBuzzTest
 * http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/
-
+* http://fizzbuzz.io
 
 == Copyright
 
