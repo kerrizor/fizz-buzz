@@ -26,6 +26,6 @@ More on FizzBuzz problems, and how they fit into the interview process
 
 == Copyright
 
-Copyright (c) 2011 Kerri Miller. See LICENSE.txt for
+Copyright (c) 2011-2015 Kerri Miller. See LICENSE.txt for
 further details.
 
