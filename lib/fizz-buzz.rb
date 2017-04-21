@@ -10,7 +10,7 @@ module FizzBuzz
       end
 
       if n.fizzbuzz?
-         return_values << "FizzBuzz"
+        return_values << "FizzBuzz"
       elsif n.buzz?
         return_values << "Buzz"
       elsif n.fizz?
